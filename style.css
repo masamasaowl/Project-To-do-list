@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #F5F5F5;
+}
+
+.navbar{
+    background-color: #00BCD4;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 52px;
+    width: 100%;
+}
+.navlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 30px;
+    width: 30px;
+    margin-left: 25px;
+}
+h1{
+    margin-left: 9px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+h4{
+    margin-left: 29px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.searchbar{
+    display: flex;
+    margin-right: 100px;
+}
+.searchicon{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.searchbar input{
+    height: 30px;
+    width: 350px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.searchbar input:placeholder-shown{
+    padding: 7px;
+}
+.searchbar:hover{
+    border: 2px solid #178ab7;
+    border-radius: 9px;
+    box-shadow: 0 0 15px 5px #178ab7;
+}
+.searchbar:active{
+    border: 2px solid #178ab7;
+    border-radius: 9px;
+    box-shadow: 0 0 15px 5px #178ab7;
+}
+.menu{
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+
+
+
+.myTasks{
+    display: flex;
+    align-items: center;
+}
+.myTasks i{
+    font-size: 20px;
+    margin-top: 26px;
+    margin-left: 4px;
+}
+
+.taskbar{
+    display: flex;
+    height: 45px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.taskbar input{
+    border: none;
+    outline: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    width: 100%;
+    padding-left: 8px;
+    font-size: 1.2rem;
+}
+.taskbar input:placeholder-shown{
+    padding-left: 8px;
+    color:#1E293B ;
+    font-size: 1.2rem;
+}
+.addBtn{
+    border: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.new{
+    margin-top: 10px;
+}
+.list-group{
+    margin: 15px 25px 0 25px;
+}
+.form-check-input{
+    margin-right: 9px;
+}
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #1E293B;
+    color: white;
+}
