@@ -3,9 +3,14 @@ let ul = document.querySelector(".list-group");
 let input = document.querySelector(".inpTask");
 
 
-addBtn.addEventListener("click",() => {addTask()});
-addBtn.addEventListener("keydown",(event) => {
-    addTask()});
+addBtn.addEventListener("click",() => {
+    addTask();
+});
+input.addEventListener("keydown",(event) => {
+    if(event.key === "Enter"){
+        addTask();
+    }
+});
 
 
 let addTask = () => {
